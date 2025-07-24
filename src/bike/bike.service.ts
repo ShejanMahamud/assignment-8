@@ -68,7 +68,7 @@ export class BikeService {
     if (!bike) throw new NotFoundException('Bike not found with this id');
     return {
       success: true,
-      message: 'Bike fetched successfully',
+      message: 'Bike fetched successfully!',
       data: bike,
     };
   }
