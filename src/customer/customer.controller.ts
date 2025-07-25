@@ -26,7 +26,6 @@ export class CustomerController {
     type: CreateCustomerDto,
     isArray: false,
   })
-  @Apibadre
   create(dto: CreateCustomerDto) {
     return this.customer.create(dto);
   }
